@@ -1,0 +1,28 @@
+@media screen and (orientation:landscape){
+    @media (min-width:768px) and (max-width:1024px) { 
+        .drag-file {
+            .drag-drop {
+                .fa-folder, h5, .or-text {
+                    display: none !important;
+                }
+            }
+        }
+    }    
+    @media (min-width:820px) and (max-width:1180px) { 
+        .drag-file {
+            .drag-drop {
+                .fa-folder, h5, .or-text {
+                    display: none !important;
+                }
+            }
+        }
+    }    
+}
+
+.information-text {
+    color: #757B82; 
+    font-weight: 500;
+}
+.fa-check-circle {
+    vertical-align: middle;    
+}

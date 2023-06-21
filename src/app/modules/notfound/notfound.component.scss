@@ -1,0 +1,25 @@
+.landing {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content:center;
+  .document-text {
+     h1 {
+      color: #000;
+      font-size: 25px;
+      font-weight: 800;
+      margin-top: 51px;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+    .powered-text {
+      font-size: 14px;
+      font-weight: 500;
+      color: #57576e;
+      text-align: center;
+      margin-bottom: 0;
+      padding: 7px 3px;
+      font-style: italic;
+    }
+  }
+}
